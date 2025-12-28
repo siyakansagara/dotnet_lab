@@ -1,0 +1,8 @@
+D:\Users\Siya\source\repos\lab 6\bin\Debug\lab 6.exe.config
+D:\Users\Siya\source\repos\lab 6\bin\Debug\lab 6.exe
+D:\Users\Siya\source\repos\lab 6\bin\Debug\lab 6.pdb
+D:\Users\Siya\source\repos\lab 6\obj\Debug\lab 6.csproj.AssemblyReference.cache
+D:\Users\Siya\source\repos\lab 6\obj\Debug\lab 6.csproj.CoreCompileInputs.cache
+D:\Users\Siya\source\repos\lab 6\obj\Debug\lab 6.exe
+D:\Users\Siya\source\repos\lab 6\obj\Debug\lab 6.pdb
+D:\Users\Siya\source\repos\lab 6\obj\Debug\lab 6.exe.config
