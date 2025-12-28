@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Student Registration Form</title>
+
+    <!-- Bootstrap 5 CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f3eeee;
+        }
+        .form-container {
+            background-color: #cbf3d9;
+            padding: 30px;
+            border-radius: 8px;
+            max-width: 650px;
+            margin: 40px auto;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="form-container">
+        <h3 class="text-center mb-4">Student Registration Form</h3>
+
+        <form>
+            <!-- First Name -->
+            <div class="mb-3">
+                <label class="form-label">Firstname</label>
+                <input type="text" class="form-control" placeholder="Firstname">
+            </div>
+
+            <!-- Middle Name -->
+            <div class="mb-3">
+                <label class="form-label">Middlename</label>
+                <input type="text" class="form-control" placeholder="Middlename">
+            </div>
+
+            <!-- Last Name -->
+            <div class="mb-3">
+                <label class="form-label">Lastname</label>
+                <input type="text" class="form-control" placeholder="Lastname">
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Course :</label>
+                <select class="form-select w-50">
+                    <option>Course</option>
+                    <option>BCA</option>
+                    <option>BSc</option>
+                    <option>BCom</option>
+                    <option>MCA</option>
+                </select>
+            </div>
+
+            <div class="mb-3">
+                <label class="form-label">Gender :</label><br>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Male</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Female</label>
+                </div>
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="gender">
+                    <label class="form-check-label">Other</label>
+                </div>
+            </div>
+
+            <!-- Phone -->
+            <div class="mb-3">
+                <label class="form-label">Phone :</label>
+                <div class="input-group">
+                    <span class="input-group-text">+91</span>
+                    <input type="text" class="form-control" placeholder="phone no.">
+                </div>
+            </div>
+
+            <!-- Address -->
+            <div class="mb-3">
+                <label class="form-label">Current Address :</label>
+                <textarea class="form-control" rows="3" placeholder="Current Address"></textarea>
+            </div>
+
+            <!-- Email -->
+            <div class="mb-3">
+                <label class="form-label">Email</label>
+                <input type="email" class="form-control" placeholder="Enter Email">
+            </div>
+
+            <!-- Password -->
+            <div class="mb-3">
+                <label class="form-label">Password</label>
+                <input type="password" class="form-control" placeholder="Enter Password">
+            </div>
+
+            <!-- Re-type Password -->
+            <div class="mb-4">
+                <label class="form-label">Re-type Password</label>
+                <input type="password" class="form-control" placeholder="Re-type Password">
+            </div>
+
+            <!-- Register Button -->
+            <div class="d-grid">
+                <button type="submit" class="btn btn-success">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
